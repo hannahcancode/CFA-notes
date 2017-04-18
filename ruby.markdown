@@ -3,8 +3,8 @@
 	* puts 				// print statement with /n
 	* print 			// print statement with no /n
 	* gets				// user input
-	* gets.chomp 		// user input with /n chopped off
-	* @variable 		// instance variable
+	* gets.chomp 			// user input with /n chopped off
+	* @variable 			// instance variable
 	* &&				// and
 	* ||				// or
 
@@ -21,7 +21,7 @@
 
 # Conventions
 
-	* snake case for variables 			// (e.g. is_it_hot) 
+	* snake case for variables 		// (e.g. is_it_hot) 
 	* classes start with a capital 		// (Person)
 	* variables start with lowercase 	// (person)
 	* constants are all uppercase 		// (PERSON)
@@ -35,7 +35,7 @@
 
 	* array << thing				// places thing in array
 	* array.each do	|i|				// loops through array with i as current item
-	* array.each_with_index	|a, i|	// as above but with index
+	* array.each_with_index	|a, i|			// as above but with index
 	* array.select do 				// if true adds thing to list
 	* array.join(')					// makes a string from array with joiner
 	* array.pop()					// pops the last variable
@@ -58,7 +58,7 @@
 	    	@teacher_notes = note
 		end
 		
-	* attr_accessor(:name, :age)	// automatically sets ups getters and setters
+	* attr_accessor(:name, :age)				// automatically sets ups getters and setters
 
 # Files
 
@@ -66,9 +66,9 @@
 	* File.open(filename, 'a+')				// append and read
 	* opened_file.write(city)				// writes to file
 	* opened_file.rewind					// rewinds
-	* opened_file.close						// closes file
+	* opened_file.close					// closes file
 	* File.open(filename, '.txt', 'w+')			// creates a new file with .txt
-					// extension, with write access
+								// extension, with write access
 										
 # Loops
 
@@ -104,21 +104,21 @@
 	var.to_s 				//convert to string
 	var.methods 				//gives all methods available (e.g. strip etc.)
 	
-	"blah #{variable} blah"	 				//string interpolation
-	'blah #{x} blah' 				//won't change #{x} to the variable
-	' \n' 				//won't change \n to new line
-	%{} 				//format multiple values
+	"blah #{variable} blah"	 		//string interpolation
+	'blah #{x} blah' 			//won't change #{x} to the variable
+	' \n' 					//won't change \n to new line
+	%{} 					//format multiple values
 	
 		formatter = "%{first} %{third} %{second} %{fourth}"
 		puts formatter % {first: 1, second: 2, third: 3, fourth: 4}
 		
-		#{'%.2f' % ten_percent} // rounds a float
+		#{'%.2f' % ten_percent} 	// rounds a float
 	
 # Flags
 
-	first, second, third = ARGV 	// add them after the .rb in terminal
-		// come into your program as variable ARGV
-		#{first}	// they are strings
+	first, second, third = ARGV 		// add them after the .rb in terminal
+						// come into your program as variable ARGV
+		#{first}			// they are strings
 
 
 # CSV
@@ -127,11 +127,11 @@
 
 # Encoding
 
-	 # -*- coding: utf-8 -*- 	//put at top of file
+	 # -*- coding: utf-8 -*- 		//put at top of file
  
-	\				// escape code
+	\					// escape code
 	
-	Escape		What it does.
+	Escape				What it does.
 	
 	\\				Backslash ()
 	\'				Single-quote (')

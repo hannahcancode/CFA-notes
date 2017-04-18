@@ -67,8 +67,8 @@
 	* opened_file.write(city)				// writes to file
 	* opened_file.rewind					// rewinds
 	* opened_file.close						// closes file
-	* File.open(filename, '.txt', 'w+')		// creates a new file with .txt
-											// extension, with write access
+	* File.open(filename, '.txt', 'w+')			// creates a new file with .txt
+					// extension, with write access
 										
 # Loops
 
@@ -91,7 +91,7 @@
 	.strip					// removes whitespace from beginning and end
 	.chomp					// removes \n from end
 	'=' * 15				// will repeat = 15 times ===============
-	.center(12, '=')		// will centre string between characters
+	.center(12, '=')			// will centre string between characters
 	.prepend				// add to beginning of string
 	.concat					// add to end of string
 	strings					// take 255 chars
@@ -102,12 +102,12 @@
 	var.class 				//get class
 	var.to_i 				//convert to integer
 	var.to_s 				//convert to string
-	var.methods 			//gives all methods available (e.g. strip etc.)
+	var.methods 				//gives all methods available (e.g. strip etc.)
 	
-	"blah #{variable} blah"	//string interpolation
-	'blah #{x} blah'		//won't change #{x} to the variable
-	' \n'					//won't change \n to new line
-	%{}						//format multiple values
+	"blah #{variable} blah"	 				//string interpolation
+	'blah #{x} blah' 				//won't change #{x} to the variable
+	' \n' 				//won't change \n to new line
+	%{} 				//format multiple values
 	
 		formatter = "%{first} %{third} %{second} %{fourth}"
 		puts formatter % {first: 1, second: 2, third: 3, fourth: 4}
@@ -117,8 +117,8 @@
 # Flags
 
 	first, second, third = ARGV 	// add them after the .rb in terminal
-									// come into your program as variable ARGV
-		#{first}					// they are strings
+		// come into your program as variable ARGV
+		#{first}	// they are strings
 
 
 # CSV
@@ -129,28 +129,28 @@
 
 	 # -*- coding: utf-8 -*- 	//put at top of file
  
-	\			// escape code
+	\				// escape code
 	
 	Escape		What it does.
 	
-	\\			Backslash ()
-	\'			Single-quote (')
-	\"			Double-quote (")
-	\a			ASCII bell (BEL)	
-	\b			ASCII backspace (BS)
-	\f			ASCII formfeed (FF)
-	\n			ASCII linefeed (LF)
-	\r			ASCII Carriage Return (CR)
-	\t			ASCII Horizontal Tab (TAB)
-	\uxxxx		Character with 16-bit hex value xxxx (Unicode only)
-	\v			ASCII vertical tab (VT)
-	\ooo		Character with octal value ooo
-	\xhh		Character with hex value hh
+	\\				Backslash ()
+	\'				Single-quote (')
+	\"				Double-quote (")
+	\a				ASCII bell (BEL)	
+	\b				ASCII backspace (BS)
+	\f				ASCII formfeed (FF)
+	\n				ASCII linefeed (LF)
+	\r				ASCII Carriage Return (CR)
+	\t				ASCII Horizontal Tab (TAB)
+	\uxxxx				Character with 16-bit hex value xxxx (Unicode only)
+	\v				ASCII vertical tab (VT)
+	\ooo				Character with octal value ooo
+	\xhh				Character with hex value hh
 
 # Order of operations
 
-	PEMDAS
-	Parenthesis, Exponents, Multiplation/Division, Add, Subtract
+PEMDAS
+Parenthesis, Exponents, Multiplation/Division, Add, Subtract
 
 # Help
 
